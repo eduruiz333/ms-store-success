@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+@font-face {
+  font-family: open-sans;
+  src: url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+  font-weight: 300;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
+
+@font-face {
+  font-family: open-sans-condensed;
+  src: url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
+  font-weight: 300;
+}
+
+
+$open-sans: 'Open Sans', sans-serif;
+$open-sans-condensed: 'Open Sans Condensed',sans-serif;
+
+body {
+  font-family: $open-sans;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+h5 {
+  font-size: .8rem;
+}
+
+h6 {
+  font-size: .6rem;
+}
+
+.open-sans {
+  font-family: $open-sans;
+}
+
+.open-sans-condensed {
+  font-family: $open-sans-condensed;
+}
