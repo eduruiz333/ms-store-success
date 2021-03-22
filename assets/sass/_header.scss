@@ -1,3 +1,17 @@
 header {
-    
+  .container {
+    background-color: $white;
+
+    .border {
+      border: solid 1px $lightGrey !important;
+    }
+
+    .logo-certisign {
+      height: 80%;
+    }
+
+    .logo-microsoft {
+      height: 50%;
+    }
+  }
 }

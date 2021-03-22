@@ -5,14 +5,48 @@
 @media (min-width: 640px) {}
 
 // m — Medium Screens
+@media (min-width: 768px) {
+  .expanded {
+    max-width: 1366px !important;
+  }
+
+  header {
+    .container {
+      background-color: $white;
+  
+      .logo-certisign {
+        height: 60px;
+        margin-left: 31px;
+      }
+  
+      .logo-microsoft {
+        height: 38px;
+        margin-right: 31px;
+      }
+    }
+  }
+
+  body {
+
+    main .container {
+      background: url('../img/img-background.jpg') center 7px no-repeat;
+
+      .content {
+        width: 438px;
+        margin-top: 185px;
+        margin-left: 65px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        padding: 43px 23px 60px;
+      }
+    }
+  }
+}
+
 @media (min-width: 960px) {}
 
 // l — Large Screens
-@media (min-width: 1200px) {
-    .expanded {
-        max-width: 1366px !important;
-      }
-}
+@media (min-width: 1200px) {}
 
 // xl — Extra Large Screens
 @media (min-width: 1600px) {}

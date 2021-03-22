@@ -1,3 +1,11 @@
 footer {
-
+    .container {
+        background-color: $darkBlue;
+        
+        p {
+            font-family: $open-sans;
+            font-size: 1rem;
+            color: $white;
+        }
+    }
 }
